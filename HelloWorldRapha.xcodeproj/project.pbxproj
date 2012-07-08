@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C13DA515AA02B300EBA2EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C13DA415AA02B300EBA2EA /* UIKit.framework */; };
+		57C13DA715AA02B300EBA2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C13DA615AA02B300EBA2EA /* Foundation.framework */; };
+		57C13DA915AA02B300EBA2EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C13DA815AA02B300EBA2EA /* CoreGraphics.framework */; };
+		57C13DAF15AA02B300EBA2EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C13DAD15AA02B300EBA2EA /* InfoPlist.strings */; };
+		57C13DB115AA02B300EBA2EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C13DB015AA02B300EBA2EA /* main.m */; };
+		57C13DB515AA02B300EBA2EA /* HWRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C13DB415AA02B300EBA2EA /* HWRAppDelegate.m */; };
+		57C13DB815AA02B300EBA2EA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C13DB615AA02B300EBA2EA /* MainStoryboard.storyboard */; };
+		57C13DBB15AA02B300EBA2EA /* HWRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C13DBA15AA02B300EBA2EA /* HWRViewController.m */; };
+		57C13DC315AA02B300EBA2EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C13DC215AA02B300EBA2EA /* SenTestingKit.framework */; };
+		57C13DC415AA02B300EBA2EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C13DA415AA02B300EBA2EA /* UIKit.framework */; };
+		57C13DC515AA02B300EBA2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C13DA615AA02B300EBA2EA /* Foundation.framework */; };
+		57C13DCD15AA02B300EBA2EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C13DCB15AA02B300EBA2EA /* InfoPlist.strings */; };
+		57C13DD015AA02B300EBA2EA /* HelloWorldRaphaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C13DCF15AA02B300EBA2EA /* HelloWorldRaphaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57C13DC615AA02B300EBA2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C13D9715AA02B200EBA2EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C13D9F15AA02B300EBA2EA;
+			remoteInfo = HelloWorldRapha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57C13DA015AA02B300EBA2EA /* HelloWorldRapha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldRapha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C13DA415AA02B300EBA2EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57C13DA615AA02B300EBA2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57C13DA815AA02B300EBA2EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57C13DAC15AA02B300EBA2EA /* HelloWorldRapha-Info.plist */ = {isa = PBXFileReference; path = "HelloWorldRapha-Info.plist"; sourceTree = "<group>"; };
+		57C13DAE15AA02B300EBA2EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57C13DB015AA02B300EBA2EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57C13DB215AA02B300EBA2EA /* HelloWorldRapha-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorldRapha-Prefix.pch"; sourceTree = "<group>"; };
+		57C13DB315AA02B300EBA2EA /* HWRAppDelegate.h */ = {isa = PBXFileReference; path = HWRAppDelegate.h; sourceTree = "<group>"; };
+		57C13DB415AA02B300EBA2EA /* HWRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWRAppDelegate.m; sourceTree = "<group>"; };
+		57C13DB715AA02B300EBA2EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		57C13DB915AA02B300EBA2EA /* HWRViewController.h */ = {isa = PBXFileReference; path = HWRViewController.h; sourceTree = "<group>"; };
+		57C13DBA15AA02B300EBA2EA /* HWRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWRViewController.m; sourceTree = "<group>"; };
+		57C13DC115AA02B300EBA2EA /* HelloWorldRaphaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldRaphaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C13DC215AA02B300EBA2EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		57C13DCA15AA02B300EBA2EA /* HelloWorldRaphaTests-Info.plist */ = {isa = PBXFileReference; path = "HelloWorldRaphaTests-Info.plist"; sourceTree = "<group>"; };
+		57C13DCC15AA02B300EBA2EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57C13DCE15AA02B300EBA2EA /* HelloWorldRaphaTests.h */ = {isa = PBXFileReference; path = HelloWorldRaphaTests.h; sourceTree = "<group>"; };
+		57C13DCF15AA02B300EBA2EA /* HelloWorldRaphaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldRaphaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C13D9D15AA02B300EBA2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C13DA515AA02B300EBA2EA /* UIKit.framework in Frameworks */,
+				57C13DA715AA02B300EBA2EA /* Foundation.framework in Frameworks */,
+				57C13DA915AA02B300EBA2EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C13DBD15AA02B300EBA2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C13DC315AA02B300EBA2EA /* SenTestingKit.framework in Frameworks */,
+				57C13DC415AA02B300EBA2EA /* UIKit.framework in Frameworks */,
+				57C13DC515AA02B300EBA2EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C13D9515AA02B200EBA2EA = {
+			isa = PBXGroup;
+			children = (
+				57C13DAA15AA02B300EBA2EA /* HelloWorldRapha */,
+				57C13DC815AA02B300EBA2EA /* HelloWorldRaphaTests */,
+				57C13DA315AA02B300EBA2EA /* Frameworks */,
+				57C13DA115AA02B300EBA2EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57C13DA115AA02B300EBA2EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C13DA015AA02B300EBA2EA /* HelloWorldRapha.app */,
+				57C13DC115AA02B300EBA2EA /* HelloWorldRaphaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C13DA315AA02B300EBA2EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C13DA415AA02B300EBA2EA /* UIKit.framework */,
+				57C13DA615AA02B300EBA2EA /* Foundation.framework */,
+				57C13DA815AA02B300EBA2EA /* CoreGraphics.framework */,
+				57C13DC215AA02B300EBA2EA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57C13DAA15AA02B300EBA2EA /* HelloWorldRapha */ = {
+			isa = PBXGroup;
+			children = (
+				57C13DB315AA02B300EBA2EA /* HWRAppDelegate.h */,
+				57C13DB415AA02B300EBA2EA /* HWRAppDelegate.m */,
+				57C13DB615AA02B300EBA2EA /* MainStoryboard.storyboard */,
+				57C13DB915AA02B300EBA2EA /* HWRViewController.h */,
+				57C13DBA15AA02B300EBA2EA /* HWRViewController.m */,
+				57C13DAB15AA02B300EBA2EA /* Supporting Files */,
+			);
+			path = HelloWorldRapha;
+			sourceTree = "<group>";
+		};
+		57C13DAB15AA02B300EBA2EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C13DAC15AA02B300EBA2EA /* HelloWorldRapha-Info.plist */,
+				57C13DAD15AA02B300EBA2EA /* InfoPlist.strings */,
+				57C13DB015AA02B300EBA2EA /* main.m */,
+				57C13DB215AA02B300EBA2EA /* HelloWorldRapha-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C13DC815AA02B300EBA2EA /* HelloWorldRaphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				57C13DCE15AA02B300EBA2EA /* HelloWorldRaphaTests.h */,
+				57C13DCF15AA02B300EBA2EA /* HelloWorldRaphaTests.m */,
+				57C13DC915AA02B300EBA2EA /* Supporting Files */,
+			);
+			path = HelloWorldRaphaTests;
+			sourceTree = "<group>";
+		};
+		57C13DC915AA02B300EBA2EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C13DCA15AA02B300EBA2EA /* HelloWorldRaphaTests-Info.plist */,
+				57C13DCB15AA02B300EBA2EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C13D9F15AA02B300EBA2EA /* HelloWorldRapha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C13DD315AA02B300EBA2EA /* Build configuration list for PBXNativeTarget "HelloWorldRapha" */;
+			buildPhases = (
+				57C13D9C15AA02B300EBA2EA /* Sources */,
+				57C13D9D15AA02B300EBA2EA /* Frameworks */,
+				57C13D9E15AA02B300EBA2EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldRapha;
+			productName = HelloWorldRapha;
+			productReference = 57C13DA015AA02B300EBA2EA /* HelloWorldRapha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57C13DC015AA02B300EBA2EA /* HelloWorldRaphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C13DD615AA02B300EBA2EA /* Build configuration list for PBXNativeTarget "HelloWorldRaphaTests" */;
+			buildPhases = (
+				57C13DBC15AA02B300EBA2EA /* Sources */,
+				57C13DBD15AA02B300EBA2EA /* Frameworks */,
+				57C13DBE15AA02B300EBA2EA /* Resources */,
+				57C13DBF15AA02B300EBA2EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C13DC715AA02B300EBA2EA /* PBXTargetDependency */,
+			);
+			name = HelloWorldRaphaTests;
+			productName = HelloWorldRaphaTests;
+			productReference = 57C13DC115AA02B300EBA2EA /* HelloWorldRaphaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C13D9715AA02B200EBA2EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HWR;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 57C13D9A15AA02B200EBA2EA /* Build configuration list for PBXProject "HelloWorldRapha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57C13D9515AA02B200EBA2EA;
+			productRefGroup = 57C13DA115AA02B300EBA2EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C13D9F15AA02B300EBA2EA /* HelloWorldRapha */,
+				57C13DC015AA02B300EBA2EA /* HelloWorldRaphaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C13D9E15AA02B300EBA2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C13DAF15AA02B300EBA2EA /* InfoPlist.strings in Resources */,
+				57C13DB815AA02B300EBA2EA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C13DBE15AA02B300EBA2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C13DCD15AA02B300EBA2EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57C13DBF15AA02B300EBA2EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C13D9C15AA02B300EBA2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C13DB115AA02B300EBA2EA /* main.m in Sources */,
+				57C13DB515AA02B300EBA2EA /* HWRAppDelegate.m in Sources */,
+				57C13DBB15AA02B300EBA2EA /* HWRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C13DBC15AA02B300EBA2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C13DD015AA02B300EBA2EA /* HelloWorldRaphaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57C13DC715AA02B300EBA2EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C13D9F15AA02B300EBA2EA /* HelloWorldRapha */;
+			targetProxy = 57C13DC615AA02B300EBA2EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57C13DAD15AA02B300EBA2EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C13DAE15AA02B300EBA2EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57C13DB615AA02B300EBA2EA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C13DB715AA02B300EBA2EA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		57C13DCB15AA02B300EBA2EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C13DCC15AA02B300EBA2EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C13DD115AA02B300EBA2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57C13DD215AA02B300EBA2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C13DD415AA02B300EBA2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorldRapha/HelloWorldRapha-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorldRapha/HelloWorldRapha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57C13DD515AA02B300EBA2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorldRapha/HelloWorldRapha-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorldRapha/HelloWorldRapha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57C13DD715AA02B300EBA2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloWorldRapha.app/HelloWorldRapha";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorldRapha/HelloWorldRapha-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorldRaphaTests/HelloWorldRaphaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57C13DD815AA02B300EBA2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloWorldRapha.app/HelloWorldRapha";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorldRapha/HelloWorldRapha-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorldRaphaTests/HelloWorldRaphaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C13D9A15AA02B200EBA2EA /* Build configuration list for PBXProject "HelloWorldRapha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C13DD115AA02B300EBA2EA /* Debug */,
+				57C13DD215AA02B300EBA2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C13DD315AA02B300EBA2EA /* Build configuration list for PBXNativeTarget "HelloWorldRapha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C13DD415AA02B300EBA2EA /* Debug */,
+				57C13DD515AA02B300EBA2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57C13DD615AA02B300EBA2EA /* Build configuration list for PBXNativeTarget "HelloWorldRaphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C13DD715AA02B300EBA2EA /* Debug */,
+				57C13DD815AA02B300EBA2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C13D9715AA02B200EBA2EA /* Project object */;
+}
