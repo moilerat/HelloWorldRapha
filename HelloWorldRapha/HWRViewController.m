@@ -13,6 +13,7 @@
 @end
 
 @implementation HWRViewController
+@synthesize MyFirstOutlet;
 
 - (void)viewDidLoad
 {
@@ -22,6 +23,7 @@
 
 - (void)viewDidUnload
 {
+    [self setMyFirstOutlet:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -31,4 +33,16 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)changeGreeting:(id)sender
+{
+    NSString* MyString;
+    unsigned int nb = 3;
+    for (unsigned int i = 0; i < nb; i++)
+    {
+        MyString = MyFirstOutlet.text;//" plop ";//MyString + " " + i;
+    }
+}
+- (IBAction)removeKeyboard:(id)sender {
+    [MyFirstOutlet resignFirstResponder];
+}
 @end

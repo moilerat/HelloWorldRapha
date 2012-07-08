@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HWRViewController : UIViewController
+- (IBAction)changeGreeting:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *MyFirstOutlet;
+- (IBAction)removeKeyboard:(id)sender;
 
 @end
