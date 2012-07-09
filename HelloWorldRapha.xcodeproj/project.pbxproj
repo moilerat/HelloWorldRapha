@@ -430,6 +430,7 @@
 				57C13DD515AA02B300EBA2EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C13DD615AA02B300EBA2EA /* Build configuration list for PBXNativeTarget "HelloWorldRaphaTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +439,7 @@
 				57C13DD815AA02B300EBA2EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
